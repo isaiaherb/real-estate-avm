@@ -1,1 +1,1 @@
-## Retail Auto-Valuation Model
+## Auto-Valuation Model for Retail Properties (Grocery Stores)
