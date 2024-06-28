@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
-df_property = pd.read_csv('/Users/isaiaherb/Documents/Northbow/WholeFoods.csv')
-file_path_main = '/Users/isaiaherb/Documents/Northbow/mrtssales92-present.xlsx'
+df_property = pd.read_csv('WholeFoods.csv')
+file_path_main = 'mrtssales92-present.xlsx'
 
 def fetch_census_data(file_path, sheet):
     df = pd.read_excel(file_path, sheet_name=sheet, skiprows=4)
